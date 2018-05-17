@@ -1,3 +1,41 @@
+/* Colour Palette
+#bdd4e7 - very lightblue
+#7bb2d9 - lightblue
+#33658a - blue
+#637074 - lightgrey-ish
+#212227 - very darkgrey
+*/
+
+/* Gobal styles
+-----------------------------*/
 body {
-  background: lightblue;
+
+}
+a {
+  color: #637074;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Header and Footer styles
+-----------------------------*/
+header, footer {
+  background: #212227;
+  color: #bdd4e7;
+}
+header h1, header h2 {
+  color: #7bb2d9;
+}
+
+/* Work Experience styles
+-----------------------------*/
+.work {
+  background: #bdd4e7;
+}
+
+/* Education styles
+-----------------------------*/
+.education {
+  background: #7bb2d9;
 }
