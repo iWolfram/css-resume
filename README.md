@@ -4,5 +4,5 @@ This is a project from the course "CSS Essential Training 1" and "CSS Essential 
 ## Note:
 - I am not the best designer. Thus, the poor colour palette choice may be disturbing for some.
 
-## Screenshot
+## Screenshot:
 ![css-resume](https://user-images.githubusercontent.com/21271240/40266496-336a9af6-5b09-11e8-9564-2dd1f4c193bd.png)
