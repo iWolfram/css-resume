@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rameses Resuena | Resume</title>
@@ -9,7 +10,13 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+      <nav>
+        <a href="#about">About</a>
+        <a href="#work">Work Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <div class="content-wrap">
         <img class="profile-img col-narrow" src="images/profile-image.jpg" alt="Rameses Resuena">
         <div class="col-wide">
@@ -20,22 +27,23 @@
             learning to code on the occasion.</p>
         </div>
       </div>
+      <a href="resume.pdf" class="btn download" download="Rameses Resuena Resume">Download Resume</a>
     </header>
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
           <div class="content-wrap">
             <h2>Work Experience</h2>
 
             <!-- IT Summer Student -->
             <div class="col-narrow">
               <h3>IT Summer Student</h3>
-              <p>Leduc County Centre</p>
+              <p class="uppercase">Leduc County Centre</p>
               <p>June 2017 - August 2017</p>
             </div>
 
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>My primary duty was to configure and deploy new systems to
               various departments. Additionaly, I provided technical support to
             staff members.</p>
@@ -56,11 +64,11 @@
             <!-- Quality Control Helper -->
             <div class="col-narrow">
               <h3>Quality Control Helper</h3>
-              <p>Alberta Exchanger Ltd.</p>
+              <p class="uppercase">Alberta Exchanger Ltd.</p>
               <p>January 2016 - May 2016</p>
             </div>
 
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>My primary duty was to measure and verify heat exchanger
                 components to drawings and the specifics. </p>
 
@@ -81,11 +89,11 @@
             <!-- Project Coordinator -->
             <div class="col-narrow">
               <h3>Project Coordinator</h3>
-              <p>Alberta Exchanger Ltd.</p>
+              <p class="uppercase">Alberta Exchanger Ltd.</p>
               <p>November 2014 - September 2015</p>
             </div>
 
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>My primary duties were to coordinate repair jobs with various
                 departments including quality control, shipping and receiving,
               welders, and shop foreman. </p>
@@ -109,11 +117,11 @@
             <!-- Cashier -->
             <div class="col-narrow">
               <h3>Cashier</h3>
-              <p>A&amp;W Restaurant</p>
+              <p class="uppercase">A&amp;W Restaurant</p>
               <p>July 2004 - September 2011</p>
             </div>
 
-            <div class="col-wide">
+            <div class="col-wide job-description">
               <p>My primary duties were to provide excellent customer service
               and handle monetary transactions.</p>
 
@@ -131,7 +139,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
           <div class="content-wrap">
             <h2>Education</h2>
 
@@ -139,7 +147,7 @@
             <h3>Northern Alberta Institute of Technology, 2015</h3>
             <p>Digital Medai &amp; IT - Computer Software Development</p>
 
-            <p>Graduated on April 2018 with a final average GPA of 3.7.</p>
+            <p>Graduated on April 2018 with a final GPA average of 3.7.</p>
             <!-- End DMIT -->
 
             <!-- MEC -->
@@ -153,15 +161,23 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
       <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
 
         <!-- Social media and contact links. Add or remove any networks. -->
         <div class="contact-info">
-            <a href="mailto:rdresuena@gmail.com">rdresuena@gmail.com</a>
-            <a href="https://www.linkedin.com/in/rameses-resuena/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/iWolfram" target="_blank">GitHub</a>
+            <a href="mailto:rdresuena@gmail.com">
+              <i class="fas fa-envelope-square fa-3x" aria-hidden="true"></i>
+              <span class="sr-only">rdresuena@gmail.com</span></a>
+            <a href="https://www.linkedin.com/in/rameses-resuena/" target="_blank">
+              <i class="fab fa-linkedin fa-3x" aria-hidden="true"></i>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+            <a href="https://github.com/iWolfram" target="_blank">
+              <i class="fab fa-github fa-3x" aria-hidden="true"></i>
+              <span class="sr-only">GitHub</span>
+            </a>
         </div>
 
         <p>Copyright 2018 by Rameses Resuena</p>

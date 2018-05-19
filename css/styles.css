@@ -4,6 +4,7 @@
 #33658a - blue
 #637074 - lightgrey-ish
 #212227 - very darkgrey
+#BAAC9D - brownish
 */
 
 /* Gobal styles
@@ -30,8 +31,11 @@ h2 {
   font-size: 40px;
   margin-top: 0;
 }
+h3 {
+  margin: 0;
+}
 a {
-  color: #637074;
+  color: #BAAC9D;
 }
 a:hover {
   text-decoration: none;
@@ -39,19 +43,27 @@ a:hover {
 .content-wrap {
   max-width: 960px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: auto;
 }
 .col-narrow {
   width: 30%;
   float: left;
-  min-height: 175px;
 }
 .col-wide {
   width: 70%;
   float: left;
   padding-left: 20px;
-  min-height: 175px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.btn {
+  text-decoration: none;
+  background: #BAAC9D;
+  color: #212227;
+  padding: 10px;
+  display: inline-block;
 }
 
 /* Header and Footer styles
@@ -63,6 +75,8 @@ header, footer {
 /* header */
 header {
   /* text-align: center; */
+  padding-top: 50px;
+  position: relative;
 }
 header h1, header h2 {
   color: #7bb2d9;
@@ -70,6 +84,12 @@ header h1, header h2 {
 }
 .profile-img {
   border-radius: 50%;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 15px;
 }
 /* footer */
 footer {
@@ -80,14 +100,46 @@ footer {
   display: inline-block;
 }
 
+/* Navigation styles
+-----------------------------*/
+nav {
+  text-align: center;
+  background: #BAAC9D;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #212227;
+}
+
 /* Work Experience styles
 -----------------------------*/
 .work {
   background: #bdd4e7;
 }
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
 
 /* Education styles
 -----------------------------*/
 .education {
-  background: #7bb2d9;
+  /* background: #7bb2d9; */
+  background: linear-gradient(rgba(123, 178, 217, 0.9), rgba(255, 255, 255, 0.7)),
+              url("../images/nait-hp-centre.jpg") no-repeat 0 65% fixed;
+}
+p + h3 {
+  margin-top: 30px;
 }
