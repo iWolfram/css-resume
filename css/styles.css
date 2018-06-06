@@ -10,6 +10,9 @@
 /* Gobal styles
 -----------------------------*/
 /* apply a natural box layout model to all elements, but allowing components to change */
+:root {
+  --header-footer-bg-color: #212227;
+}
 html {
   box-sizing: border-box;
 }
@@ -69,7 +72,8 @@ a:hover {
 /* Header and Footer styles
 -----------------------------*/
 header, footer {
-  background: #212227;
+  /* background: #212227; */
+  background: var(--header-footer-bg-color, #212227);
   color: #bdd4e7;
 }
 /* header */
