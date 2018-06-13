@@ -98,6 +98,7 @@ header h1, header h2 {
 /* footer */
 footer {
   text-align: center;
+  position: relative;
 }
 .contact-info a {
   padding: 20px;
@@ -127,7 +128,6 @@ nav a {
 -----------------------------*/
 .work {
   background: #bdd4e7;
-  position: relative;
 }
 h3 ~ p {
   margin: 0;
@@ -146,7 +146,6 @@ h3 ~ p {
   background: linear-gradient(rgba(123, 178, 217, 0.9), rgba(255, 255, 255, 0.7)),
               url("../images/nait-hp-centre.jpg") no-repeat 0 65% fixed;
   background-size: cover;
-  position: relative;
 }
 p + h3 {
   margin-top: 30px;
